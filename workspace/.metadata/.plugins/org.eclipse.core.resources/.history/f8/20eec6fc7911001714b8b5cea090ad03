@@ -1,0 +1,29 @@
+package entidades;
+
+public class Servico {
+
+	private Double valor = 10;
+	private String valorDescritivo = "DEZ";
+	private String descricaoServico;
+	
+	public Double getValor() {
+		return valor;
+	}
+	public void setValor(Double valor) {
+		this.valor = valor;
+	}
+	public String getValorDescritivo() {
+		return valorDescritivo;
+	}
+	public void setValorDescritivo(String valorDescritivo) {
+		this.valorDescritivo = valorDescritivo;
+	}
+	public String getDescricaoServico() {
+		return descricaoServico;
+	}
+	public void setDescricaoServico(String descricaoServico) {
+		this.descricaoServico = descricaoServico;
+	}
+	
+	
+}

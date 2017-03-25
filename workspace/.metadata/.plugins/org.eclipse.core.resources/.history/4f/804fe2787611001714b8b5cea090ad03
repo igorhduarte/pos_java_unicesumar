@@ -1,0 +1,11 @@
+package Entidades;
+
+public class Endereco {
+	
+	private String logradouro;
+	private Integer numero;
+	private String complemento;
+	private String Bairro;
+	private Cidade cidade;
+
+}

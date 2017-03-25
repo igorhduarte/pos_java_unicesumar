@@ -1,0 +1,7 @@
+package Entidades;
+
+public enum UF {
+	PR,
+	SC,
+	SP;
+}

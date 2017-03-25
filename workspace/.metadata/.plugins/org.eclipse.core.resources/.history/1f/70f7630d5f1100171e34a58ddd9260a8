@@ -1,0 +1,27 @@
+public class Calculadora {
+	
+	static Boolean par;
+	
+	public static void main(String[] args) {
+		par = verificaPar(5);
+		if (par == true){
+			System.out.println("Número par");
+		}else{
+			System.out.println("Número ímpar.");
+		}
+	}
+	
+	
+	private static boolean verificaPar(int valor){
+		
+		valor = 4;
+		
+		if ((valor % 2) ==0){
+			return true;
+		} else{
+			return false;
+		}
+			
+	}	
+
+}

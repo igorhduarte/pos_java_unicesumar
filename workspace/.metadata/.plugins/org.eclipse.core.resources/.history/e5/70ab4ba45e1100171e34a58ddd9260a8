@@ -1,0 +1,22 @@
+public class Calculadora {
+	
+	public static void main(String[] args) {
+		verificaPar();
+	}
+	
+	
+	private verificaPar(){
+		
+		int valor1;
+		
+		valor1 = 5;
+		
+		if ((valor1 % 2) ==0){
+			System.out.println("É par");
+		} else{
+			System.out.println("Não é par.");
+		}
+			
+	}	
+
+}

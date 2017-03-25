@@ -1,0 +1,28 @@
+package Entidades;
+
+import java.util.Date;
+
+
+public class Recibo {
+	
+	private Integer ReciboID = 1;
+	private Integer numero;
+	private Double valor;
+	private Date data;
+	private String valorDescritivo;
+	private String descricaoServico;
+	private Cidade cidade;
+	private Boolean confirmacaoRecibo;
+	private String assinaturaEmitente;
+	
+	
+	private Emitente emitente;
+	private Pagador pagador;
+	private Servico servico;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

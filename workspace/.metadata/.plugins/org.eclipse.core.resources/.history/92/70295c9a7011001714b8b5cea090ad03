@@ -1,0 +1,45 @@
+
+public class Calculadora {
+
+	static Integer valorInicial = 2;
+	
+	public static void main(String[] args) {
+		System.out.println("mensagem - oi mundo");
+		exemploDivisao();
+		exemploMultiplicacao();
+		exemploAdicao();
+		exemploSubtracao();
+		validaSeValorEhImpar();
+		validaSeValorEhPar(valorInicial);
+		validaSeValorEhPar(valorInicial);
+	}
+
+	public static String validaSeValorEhPar(Integer valorInicial) {
+		if (valorInicial % 2 == 0){
+			return "PAR";
+		}
+		return "";
+	}
+	
+	private static void validaSeValorEhImpar(valorInicial) {
+		if (valorInicial % 2 != 0){
+			System.out.println("IMPAR");
+		}
+	}
+		
+	private static void exemploSubtracao() {
+		Integer resultadoDaSubtracao = valorInicial - 2;
+	}
+
+	private static void exemploAdicao() {
+		Integer resultadoDaAdicao = valorInicial + 2;
+	}
+
+	private static void exemploMultiplicacao() {
+		Integer resultadoDaMultiplicacao = valorInicial * 2;
+	}
+
+	private static void exemploDivisao() {
+		Integer resultadoDaDivisao = valorInicial / 2;
+	}
+}

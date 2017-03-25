@@ -1,0 +1,7 @@
+package Entidades;
+
+public class Cidade {
+	
+	private String nome;
+	private UF UF;
+}

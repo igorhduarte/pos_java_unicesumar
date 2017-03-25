@@ -1,0 +1,20 @@
+package testes;
+
+import org.junit.Assert;
+import org.junit.Test;
+
+import entidades.Servico;
+
+
+public class ValorDescritivoTest {
+	
+	@Test
+	public void validaParTest() {
+		Servico servico = new Servico();
+		
+		Assert.assertEquals("PAR", servico);
+		
+	}
+
+
+}

@@ -1,0 +1,43 @@
+package entidades;
+
+import java.util.Date;
+
+
+public class Recibo {
+	
+	private Integer ReciboID = 1;
+	private Integer numero;
+	private Date dataConfirmacao;
+	private Boolean confirmacaoRecibo;
+	private String assinaturaEmitente;
+	
+	
+	private static Emitente emitente;
+	private static Pagador pagador;
+	private static Servico servico;
+	
+	public static void main(String[] args) {
+		Double valor = servico.getValor();
+		String valorDescritivo = "DEZ"; //servico.getValorDescritivo();
+		System.out.println(validaValorDescritivo(valor, valorDescritivo));
+	}
+
+	private static String validaValorDescritivo(Double valor, String valorDescritivo) {
+	
+		if ((valor == 0) && (valorDescritivo != "ZERO")){
+			return "Valor Inválido";
+		}
+		
+		if ((valor == 10) && (valorDescritivo != "DEZ")){
+			return "Valor Inválido";
+		}
+		if ((valor == 20) && (valorDescritivo != "VINTE")){
+			return "Valor Inválido";
+		}
+		
+		
+		return (valorDescritivo);	
+		
+	}
+
+}

@@ -1,0 +1,22 @@
+package Entidades;
+
+import java.util.Date;
+
+
+public class Recibo {
+	
+	private Integer numero;
+	private Integer valor;
+	private Date data;
+	
+	
+	private Emitente emitente;
+	private Pagador pagador;
+	private Serviço serviço;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

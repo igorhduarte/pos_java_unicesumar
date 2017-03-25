@@ -1,0 +1,17 @@
+package Entidades;
+
+import java.util.Date;
+
+
+public class Recibo {
+
+	private Integer valor;
+	private Serviço serviço;
+	private Date data;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

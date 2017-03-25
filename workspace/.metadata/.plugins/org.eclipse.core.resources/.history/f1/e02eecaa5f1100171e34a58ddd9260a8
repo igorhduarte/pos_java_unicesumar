@@ -1,0 +1,31 @@
+import javax.swing.JOptionPane;
+
+public class Calculadora {
+	
+	
+	public static void main(String[] args) {
+		String valor = JOptionPane.showInputDialog("Insira um valor");
+		
+		
+		Boolean par = verificaPar(Integer.valueOf(valor));
+		if (par == true){
+			System.out.println("Número par");
+		}else{
+			System.out.println("Número ímpar.");
+		}
+	}
+	
+	
+	private static boolean verificaPar(Integer valor){
+		
+		valor = 4;
+		
+		if ((valor % 2) ==0){
+			return true;
+		} else{
+			return false;
+		}
+			
+	}	
+
+}
